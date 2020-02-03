@@ -24,13 +24,15 @@ def calculate(**kwargs):
     operation_search = operations_set[kwargs.get('operation','')]
 
     if is_float:
-        result = print("The Result is", float(operation_search))
+        result = "The Result is" , float(operation_search)
 
     else:
-        result = print(f"{kwargs.get('message','')}, " + " The Result is", int(operation_search))
+        result = f"{kwargs.get('message', '')}, " + " The Result is", int(operation_search)
 
     return result
 
 
-calculate(make_float=False, operation='add', message='You just added', first=100, second=20)
-calculate(make_float=True, operation='divide', first=10.5, second=2)
+
+
+print(calculate(make_float=False, operation='add', message='You just added', first=100, second=20))
+print(calculate(make_float=True, operation='divide', first=10.5, second=2))

@@ -1,6 +1,6 @@
 """
 
-User & Moderator uses Inheritance
+User & Moderator using Inheritance
 
 """
 

@@ -1,1 +1,1 @@
-# PracticeProjects
+# CodingPracticeExercises

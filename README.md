@@ -1,1 +1,1 @@
-# myPracticeProjects
+# CodingPracticeExercises
